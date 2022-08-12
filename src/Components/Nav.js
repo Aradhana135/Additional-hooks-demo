@@ -18,6 +18,24 @@ const Nav = () => {
         <li>
           <Link to="/usecallback">UseCallback</Link>
         </li>
+        <li>
+          <Link to="/useemperativehandler">UseEmperativeHandler</Link>
+        </li>
+        <li>
+          <Link to="/uselayout">UseLayoutEffect</Link>
+        </li>
+        <li>
+          <Link to="/usedebugvalue">UseDebugValue</Link>
+        </li>
+        <li>
+          <Link to="/usedefferedvalue">useDefferedValue</Link>
+        </li>
+        <li>
+          <Link to="/usetransition">UseTransition</Link>
+        </li>
+        <li>
+          <Link to="/useid">UseId</Link>
+        </li>
       </ul>
     </div>
   );
