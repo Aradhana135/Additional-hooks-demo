@@ -21,7 +21,7 @@ const UseDefferedValue=()=> {
       });
     }
    
-    return (<>
+    return (<><center>
     <h1>       </h1>
 
       <div id="app"><label> Enter the Product no:
@@ -30,6 +30,7 @@ const UseDefferedValue=()=> {
         {isPending && <p style={{color: 'red'}}>Updating list..</p>}
         <ProductLists1 products={filteredProducts} />
       </div>
+      </center>
       </>
     );
   }

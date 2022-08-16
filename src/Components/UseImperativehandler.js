@@ -5,8 +5,10 @@ const UseImperativehandler = () => {
   const inputRef = useRef(null);
   return (
     <div>
+      <center>
       <Input onFocus={() => inputRef.current.focus()} 
       ref={inputRef} />
+      </center>
     </div>
   );
 };

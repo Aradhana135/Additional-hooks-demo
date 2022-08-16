@@ -34,7 +34,7 @@ const Demo = () => {
   };
 
   return (
-    <>
+    <><center>
       <h2 style={{ color: "green", fontFamily: "sans-serif" }}>
         List of tasks----
       </h2>
@@ -50,6 +50,7 @@ const Demo = () => {
           </label>
         </div>
       ))}
+      </center>
     </>
   );
 };

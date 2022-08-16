@@ -5,7 +5,7 @@ const Nav = () => {
     <div
       style={{ height: 200, weidth: 300, background: "", borderColor: "aqua" }}
     >
-      <ul type="circle">
+      <ul type="circle" style={{display:"flow-root"}}>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -36,6 +36,13 @@ const Nav = () => {
         <li>
           <Link to="/useid">UseId</Link>
         </li>
+        <li>
+          <Link to="/useinsertion">UseInsertion</Link>
+        </li>
+        <li>
+          <Link to="/usesyncexternalstore">UseSyncExternalstore</Link>
+        </li>
+      
       </ul>
     </div>
   );

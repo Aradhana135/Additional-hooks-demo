@@ -12,24 +12,18 @@ const reducer = (state, action) => {
       throw new Error("Unexpected action");
   }
 };
- 
+
 const UseReducerdemo = () => {
-    // Initialising useReducer hook
+  // Initialising useReducer hook
   const [count, dispatch] = useReducer(reducer, initialState);
   return (
     <div>
       <h2>{count}</h2>
-      <button onClick={() => dispatch("add")}>
-        add
-      </button>
-      <button onClick={() => dispatch("subtract")}>
-        subtract
-      </button>
-      <button onClick={() => dispatch("reset")}>
-        reset
-      </button>
+      <button onClick={() => dispatch("add")}>add</button>
+      <button onClick={() => dispatch("subtract")}>subtract</button>
+      <button onClick={() => dispatch("reset")}>reset</button>
     </div>
   );
 };
- 
+
 export default UseReducerdemo;

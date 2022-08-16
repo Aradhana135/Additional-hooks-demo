@@ -13,6 +13,8 @@ import UseDebudValue from "./Components/UseDebudValue";
 import UseTransition from "./Components/UseTransition";
 import UseDefferedValue from "./Components/UseDefferedValue";
 import UseId from "./Components/UseId";
+import UseInsertion from "./Components/UseInsertion";
+import UseSyncExternalstore from "./Components/UseSyncExternalstore";
 function App() {
   return (<>
   <center/>
@@ -32,7 +34,9 @@ function App() {
         <Route path="usedefferedvalue" element={<UseDefferedValue/>}/>
         <Route path="usetransition" element={<UseTransition/>}/>
         <Route path="useid" element={<UseId/>}/>
-        </Routes>
+        <Route path="useinsertion" element={<UseInsertion/>}/>
+        <Route path="usesyncexternalstore" element={<UseSyncExternalstore/>}/>
+        </Routes> 
       </Router>
 
     
